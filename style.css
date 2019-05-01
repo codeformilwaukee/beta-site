@@ -1,0 +1,124 @@
+body{
+	background-color: #F8F9F9;
+}
+
+.noMargin{
+	margin:0px;
+	padding:0px;
+}
+
+.inner{
+	width:1200px;
+	margin:auto;
+}
+
+#topNav{
+	display:block;
+	background-image:url(Images/Free_Sample_By_Wix.jpg);
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+
+.container {
+	width:100%;
+	height:350px;
+	background-image:url(Images/trees-1915246_1920.jpg);
+	background-position:center;
+}
+
+#inspiring{
+	display:inline-block;
+	font-family: "Courier New";
+	font-size: 45px;
+}
+
+#meetup{
+	float:none;
+	text-align: center;
+	margin-right:300px;
+}
+
+.aboutPara{
+	text-align: center;
+	color: black;
+	font-family:"Courier New";
+	font-size:20px;
+	margin-bottom:150px;
+}
+
+nav {
+	height: 100px;
+	padding: 0;
+}
+
+
+ul li {
+	list-style: none;
+	display: inline-block;
+	float: right;
+	line-height: 100px;
+}
+
+ul li a{
+	font-size: 20px;
+	font-family: "Courier New";
+	padding: 0 20px;
+}
+
+a>em{
+	color:rgba(23,25,126,1.00);
+	font:bold;
+}
+
+a{	
+	text-decoration:none;
+	color: #154360;
+}
+
+a:visited{
+	color: #154360;
+}
+/* Container holding the image and the text */
+.container {
+	position: relative;
+	text-align: center;
+	color: #154360;
+	font-family:"Courier New";
+}
+.container-bottom {
+	position: relative;
+	text-align: center;
+	color: black;
+	font-family:"Courier New";
+	font-size:20px;
+	border-radius: 50%;
+}
+
+
+/* Bottom left text */
+.bottom-left {
+	float:left;
+	color: black;
+	font-family:"Courier New";
+	font-size: 12px;
+	width:300px;
+}	
+/* Centered text */
+.center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width:1200px){
+	.inner{
+		width:100%;
+	}
+}
+
+@media screen and (max-width:818px){
+	.inner{
+		width:100%;
+	}
+}

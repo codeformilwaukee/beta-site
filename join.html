@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+ 	<head> 
+	 	<meta charset="utf-8">
+		<title>Code for MKE</title>
+	 	<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="join.css">
+	</head>		
+	<body class="noMargin">
+		<div class="inner">
+			<nav id="topNav">
+				<ul>
+					<li><a href="events.html" >Events</a></li>
+					<li><a href="join.html">Join</a></li>
+					<li><a href="about_us.html">About us</a></li>
+					<li><a href="index.html">Home</a></li>
+				</ul>
+			</nav>
+			<div class="containerjoin">
+				<form method="post" action="addparticipant.php">
+					<fieldset>
+						<legend>Personal Information</legend>
+						<label>First Name</label><br>
+						<input type="text" name="fname" placeholder="Your name.." required><br>
+						
+						<label>Last Name</label><br>
+						<input type="text" name="lname" placeholder="Your last name.." required><br>
+						
+						<label>Email</label><br>
+						<input type="email" name="email" placeholder="Email.." required><br>
+						
+						<label>Phone Number</label><br>
+						<input type="text" name="phoneNum" placeholder="(555)-123-4567">
+					</fieldset>
+					
+					<fieldset>
+						<legend>Programming languages</legend>
+						<input type="checkbox" name="javaScript"/>: JavaScript
+						<br>
+						<input type="checkbox" name="python"/>: Python
+						<br>
+						<input type="checkbox" name="java"/>: Java
+						<br>
+						<input type="checkbox" name="c"/>: C
+						<br>
+						<input type="checkbox" name="c#"/>: C#
+						<br>
+						<input type="checkbox" name="c++"/>: C++
+						<br>
+						<input type="checkbox" name="php"/>: PHP
+						<br>
+						<input type="checkbox" name="ruby"/>: Ruby
+						<br>
+						<input type="checkbox" name="swift"/>: Swift
+						<br>
+						<input type="checkbox" name="sql"/>: SQL
+						<br>
+						<input type="checkbox" name="objectiveC"/>: Objective – C
+						<br>
+						<input type="checkbox" name="html"/>: HTML
+						<br> 
+						<input type="checkbox" name="css"/>: CSS
+					</fieldset>
+					
+					<fieldset>
+						<legend>Graphic Design Skills</legend>
+						<input type="checkbox" name="photoEditing"/>: Photo Editing
+						<br>
+						<input type="checkbox" name="indesign"/>: InDesign
+						<br>
+						<input type="checkbox" name="dreamweaver"/>: Dreamweaver
+						<br>
+						<input type="checkbox" name="photoshop"/>: Adobe Photoshop
+						<br>
+						<input type="checkbox" name="illustrator"/>: Adobe Illustrator
+						<br>
+						<input type="checkbox" name="xd"/>: Adobe XD
+						
+					</fieldset>
+					
+					<fieldset>
+						<legend>Tell us about yourself</legend>
+						<textarea name="subject" placeholder="Write something.." style="height:100px"></textarea><br>
+					</fieldset>
+					
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
