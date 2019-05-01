@@ -6,10 +6,10 @@
  * Time: 10:53 PM
  */
 
-$host = 'localhost';
-$username = 'root';
-$password = 'root';
-$dbName = 'code_milwaukee_db';
+$host = 'CHANGE';
+$username = 'CHANGE';
+$password = 'CHANGE';
+$dbName = 'CHANGE';
 
 // Connect to the database
 $link = mysqli_connect($host, $username, $password);
